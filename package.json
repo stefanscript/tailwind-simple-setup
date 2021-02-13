@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "start": "live-server public",
-        "build": "NODE_ENV=production postcss css/tailwind.css -o public/build/tailwind.css"
+        "build": "postcss css/tailwind.css -o public/build/tailwind.css",
+        "build:prod": "NODE_ENV=production npm run build"
     },
     "keywords": [],
     "author": "",
