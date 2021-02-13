@@ -8,9 +8,12 @@
     }
 }
 
-.title {
-    @apply text-4xl font-bold text-center text-blue-500 mb-1;
-}
-.btn-primary {
-    @apply flex-auto bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 rounded-md p-2 text-white;
+@layer components {
+    .title {
+        @apply text-4xl font-bold text-center text-blue-500 mb-1;
+    }
+
+    .btn-primary {
+        @apply flex-auto bg-purple-600 hover: bg-purple-700 focus: outline-none focus: ring-2 focus: ring-purple-600 focus: ring-opacity-50 rounded-md p-2 text-white;
+    }
 }
