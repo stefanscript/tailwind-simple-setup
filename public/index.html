@@ -8,21 +8,49 @@
     <link rel="stylesheet" href="/build/tailwind.css"/>
 </head>
 <body class="bg-gray-100">
+<section>
+    <h1 class="title">Hello world!</h1>
+</section>
 
-<h1 class="title">Hello world!</h1>
+<section>
+    <article class="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+        <div class="md:flex">
+            <div class="md:flex-shrink-0">
+                <img class="h-48 w-full object-cover md:w-48"
+                     src="/img/mike-petrucci-c9FQyqIECds-unsplash.jpg" alt="store with open sign"/>
+            </div>
+            <div class="p-8">
+                <div class="uppercase tracking-wide text-sm text-gray-500 font-semibold mb-1">Case study</div>
+                <h1><a href="#" class="block mb-2 text-lg leading-tight font-medium text-black hover:underline">How to
+                    setup your shop</a></h1>
+                <p class="text-gray-500">From the first idea that you have in mind, to the day you open your very own
+                    shop.</p>
+            </div>
+        </div>
+    </article>
+</section>
 
-<article class="max-w-md mx-auto md:max-w-2xl rounded-xl shadow-md overflow-hidden">
-    <div class="md:flex">
-        <div class="md:flex-shrink-0">
-            <img class="h-48 w-full object-cover md:w-48"
-                 src="/img/mike-petrucci-c9FQyqIECds-unsplash.jpg" alt="store with open sign"/>
-        </div>
-        <div class="p-8">
-            <div class="uppercase tracking-wide text-sm text-gray-500 font-semibold mb-1">Case study</div>
-            <h1><a href="#" class="block mb-2 text-lg leading-tight font-medium text-black hover:underline">How to setup your shop</a></h1>
-            <p class="text-gray-500">From the first idea that you have in mind, to the day you open your very own shop.</p>
-        </div>
+<section>
+    <h1>Hover</h1>
+    <form>
+        <fieldset class="flex flex-col space-y-2 md:space-y-0 md:space-x-2 md:flex-row">
+            <label for="email" class="hidden">Your email</label>
+            <input class="flex-auto border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent rounded-md p-2 shadow"
+                   id="email" name="email" placeholder="Your email"/>
+            <button class="flex-auto bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 rounded-md p-2 text-white">
+                Subscribe
+            </button>
+        </fieldset>
+    </form>
+</section>
+
+<section>
+    <h1>Group hover</h1>
+    <div class="group border rounded-xl p-4 hover:bg-white hover:shadow">
+        <h3 class="text-red-400 group-hover:text-gray-900">Project name</h3>
+        <p class="text-red-400 group-hover:text-gray-500">Describe the project name here</p>
     </div>
-</article>
+</section>
+
 </body>
 </html>
