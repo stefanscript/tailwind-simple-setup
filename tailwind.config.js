@@ -21,6 +21,9 @@ module.exports = {
             blue: colors.blue,
             green: colors.emerald,
             yellow: colors.amber,
+        },
+        container: {
+            center: true
         }
     },
     variants: {

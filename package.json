@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "live-server public",
+        "start": "live-server public & npm run build -- --w",
         "build": "postcss css/tailwind.css -o public/build/tailwind.css",
         "build:prod": "NODE_ENV=production npm run build"
     },
